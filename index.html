@@ -1,0 +1,30 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steamcito</title>
+    <meta name="keywords" content="steam impuestos juegos">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Calculadora de impuesto país en Steam</h1>
+    <label for="precio">Ingrese el precio del juego en dólares:</label>
+    <input type="number" id="precio" />
+    <br />
+    <label for="impuesto">Seleccione su país:</label>
+    <select id="impuesto">
+      <option value="Argentina">Argentina</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="Colombia">Colombia</option>
+      <option value="México">México</option>
+      <option value="Perú">Perú</option>
+    </select>
+    <br />
+    <button onclick="calcularImpuesto()">Calcular impuesto</button>
+    <br />
+    <p id="resultado"></p>
+    <script src="./main.js/impuesto.js"></script>
+</body>
+</html>
