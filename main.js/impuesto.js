@@ -1,3 +1,4 @@
+
 function calcularImpuesto() {
     const precio = document.getElementById("precio").value;
     const pais = document.getElementById("impuesto").value;
